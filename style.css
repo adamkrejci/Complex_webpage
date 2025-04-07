@@ -203,27 +203,24 @@ header {
   }
 }
 #scrollToTopBtn {
-  position: fixed;
+  position: fixed
   bottom: 20px;
   right: 20px;
   padding: 10px 15px;
-  background-color: #007bff;
-  color: white;
-  border: none;
+  background-color: gray;
+  color: black;
+  border: 5px;
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
-  display: none; /* Hidden by default */
+  display: none;
 }
 
 #scrollToTopBtn:hover {
   background-color: #0056b3;
 }
 .navigation_text {
-  /* position: fixed;
-  bottom: 20px;
-  right: 20px;
-  padding: 10px 15px; */
+  padding: 10px 15px;
   margin: auto;
   text-align: center;
 }
