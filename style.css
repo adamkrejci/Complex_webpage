@@ -1,0 +1,273 @@
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 70px;
+}
+.logo {
+  flex-grow: 1;
+}
+.logo img {
+  width: 200px;
+  margin-left: 20px;
+}
+/* Navigace */
+nav {
+  margin-right: 30px;
+}
+nav li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 20px;
+}
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+.menu-icon {
+  display: none;
+  margin-right: 30px;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* background-color: #15304c; */
+  height: 70px;
+}
+/* Section pictures */
+ˇ .content-container-1 {
+  max-width: 850px;
+  margin: 0;
+  position: relative;
+}
+@media (min-width: 768px) {
+  .content-container-1 {
+    margin: auto;
+  }
+}
+.our-trips-section {
+  padding: 50px;
+}
+.gallery-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.gallery-item {
+  width: calc(100% / 3 - 20px);
+  height: 200px;
+  margin: auto;
+  background-size: cover;
+  background-position: center;
+}
+@media (max-width: 768px) {
+  .our-trips-text {
+    height: 100px;
+  }
+  .gallery-content {
+    gap: 10px;
+  }
+  .gallery-item {
+    width: 100%;
+  }
+}
+.photo1 {
+  background-image: url(images/images/carpixel.net-2023-alfa-romeo-giulia-quadrifoglio-119334-hd.jpg);
+}
+.photo2 {
+  background-image: url(images/images/carpixel.net-2023-alfa-romeo-giulia-tributo-italiano-120852-hd.jpg);
+}
+.photo3 {
+  background-image: url(images/images/carpixel.net-2023-alfa-romeo-giulia-veloce-jp-119134-hd.jpg);
+}
+.gallery-item {
+  transition: transform 0.25s;
+}
+.gallery-item:hover {
+  transform: scale(1.25);
+}
+.our-trips-text {
+  background-color: var(--light_gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.section_form_passwords {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.section_form_passwords h2 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.email {
+  width: 300px;
+  background: whitesmoke;
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  color: black;
+  font-style: 18px;
+}
+/* Přidání ikonek do stránky */
+#form.invalid .input-box_1:before {
+  content: "";
+  position: absolute;
+  right: 12px;
+  top: 8px;
+  width: 24px;
+  height: 24px;
+  background: url(images/invalid.png);
+  background-size: cover;
+  z-index: 1000;
+}
+
+#form.valid .input-box_2:before {
+  content: "";
+  position: absolute;
+  right: -28px;
+  top: 0px;
+  width: 24px;
+  height: 24px;
+  background: url(images/valid.png);
+  background-size: cover;
+  z-index: 1000;
+}
+.input-box_2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.input-box_1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  header {
+    position: relative;
+  }
+  header nav {
+    display: none;
+    position: absolute;
+    top: 70px;
+    width: 100%;
+  }
+
+  .menu-icon {
+    display: block;
+    /* color: white; */
+    font-size: 23px;
+  }
+
+  /* .menu-icon {
+    display: block;
+    color: white;
+    font-size: 23px;
+  } */
+
+  header nav li {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 768px) {
+  header nav {
+    display: block !important;
+  }
+}
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: none; /* Hidden by default */
+}
+
+#scrollToTopBtn:hover {
+  background-color: #0056b3;
+}
+.navigation_text {
+  /* position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px; */
+  margin: auto;
+  text-align: center;
+}
+.body-light {
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.body-dark {
+  background-color: #121212;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.header-light {
+  background-color: #87ceeb;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.header-dark {
+  background-color: #3a3a8b;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+.link-dark {
+  color: white;
+  transition: color 0.3s;
+}
+.link-light {
+  color: black;
+  transition: color 0.3s;
+}
+.header_nav-dark {
+  background-color: #3a3a8b;
+  transition: background-color 0.3s;
+}
+.header_nav-light {
+  background-color: #87ceeb;
+  transition: background-color 0.3s;
+}
