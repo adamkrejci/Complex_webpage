@@ -38,7 +38,6 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  /* background-color: #15304c; */
   height: 70px;
 }
 /* Section pictures */
@@ -73,19 +72,20 @@ header {
   }
   .gallery-content {
     gap: 10px;
+    text-align: center;
   }
   .gallery-item {
     width: 100%;
   }
 }
 .photo1 {
-  background-image: url(images/images/carpixel.net-2023-alfa-romeo-giulia-quadrifoglio-119334-hd.jpg);
+  background-image: url(./images/images/carpixel.net-2023-alfa-romeo-giulia-quadrifoglio-119334-hd.jpg);
 }
 .photo2 {
-  background-image: url(images/images/carpixel.net-2023-alfa-romeo-giulia-tributo-italiano-120852-hd.jpg);
+  background-image: url(./images/images/carpixel.net-2023-alfa-romeo-giulia-tributo-italiano-120852-hd.jpg);
 }
 .photo3 {
-  background-image: url(images/images/carpixel.net-2023-alfa-romeo-giulia-veloce-jp-119134-hd.jpg);
+  background-image: url(./images/images/carpixel.net-2023-alfa-romeo-giulia-veloce-jp-119134-hd.jpg);
 }
 .gallery-item {
   transition: transform 0.25s;
@@ -140,7 +140,7 @@ header {
   top: 8px;
   width: 24px;
   height: 24px;
-  background: url(images/invalid.png);
+  background: url(./images/invalid.png);
   background-size: cover;
   z-index: 1000;
 }
@@ -152,7 +152,7 @@ header {
   top: 0px;
   width: 24px;
   height: 24px;
-  background: url(images/valid.png);
+  background: url(./images/valid.png);
   background-size: cover;
   z-index: 1000;
 }
@@ -180,15 +180,8 @@ header {
 
   .menu-icon {
     display: block;
-    /* color: white; */
     font-size: 23px;
   }
-
-  /* .menu-icon {
-    display: block;
-    color: white;
-    font-size: 23px;
-  } */
 
   header nav li {
     display: block;
@@ -203,7 +196,7 @@ header {
   }
 }
 #scrollToTopBtn {
-  position: fixed
+  position: fixed;
   bottom: 20px;
   right: 20px;
   padding: 10px 15px;
@@ -219,11 +212,7 @@ header {
 #scrollToTopBtn:hover {
   background-color: #0056b3;
 }
-.navigation_text {
-  padding: 10px 15px;
-  margin: auto;
-  text-align: center;
-}
+
 .body-light {
   background-color: white;
   color: black;
@@ -267,4 +256,29 @@ button {
 .header_nav-light {
   background-color: #87ceeb;
   transition: background-color 0.3s;
+}
+.text_content {
+  margin: auto;
+}
+.paragraph_1 {
+  padding-top: 60px;
+}
+.paragraph_2 {
+  padding-top: 40px;
+}
+.paragraph_3 {
+  text-align: center;
+  padding-top: 40px;
+}
+.paragraph_4 {
+  padding-top: 40px;
+}
+.gallery-content {
+  padding-bottom: 30px;
+}
+.buttons {
+  text-align: center;
+}
+.video {
+  margin: auto;
 }
