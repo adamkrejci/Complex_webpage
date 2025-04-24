@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <!-- Adam Krejčí -->
+  <!-- adamkrejci94@gmail.com -->
+  <!-- adam_43524-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/8ba26cb1dc.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+
+  <body class="body-light">
+    <header class="header-light">
+      <div class="logo">
+        <img src="./img/logo.png" alt="" />
+      </div>
+      <nav class="header_nav-light">
+        <ul>
+          <li><a class="link-light" href="#">Domů</a></li>
+          <li><a class="link-light" href="#">O nás</a></li>
+          <li><a class="link-light" href="#">Kontakt</a></li>
+        </ul>
+      </nav>
+      <div class="menu-icon">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+    <main>
+      <!-- Sections pictures -->
+      <section class="section_pictures">
+        <div class="content-container-1">
+          <div class="gallery-content">
+            <div class="gallery-item photo1"></div>
+
+            <div class="gallery-item photo2"></div>
+
+            <div class="gallery-item photo3"></div>
+            <!-- buttons -->
+            <div class="buttons">
+              <button id="btlight">Světlý mód</button>
+              <button id="btdark">Tmavý mód</button>
+            </div>
+            <!-- Text about alfa romeo -->
+            <div class="text_content">
+              <!-- paragraph about tech specs -->
+              <p class="paragraph_1">
+              <ul>
+                <h1>
+                  Technické parametry (pro vybrané verze) Alfa Romeo Giulia
+                </h1>
+              </ul>
+
+              <li>
+                (běžné verze): Motory: Benzín: 2.0 Turbo (200–280 koní) Diesel:
+                2.2 JTD (160–210 koní)
+              </li>
+              <li>
+                Převodovka: 6stupňová manuální / 8stupňová automatická (ZF)
+              </li>
+              <li>Pohon: Zadní nebo všechna čtyři kola (Q4)</li>
+              <li>
+                Zrychlení 0–100 km/h: cca 5.2–7.1 s (v závislosti na motorizaci)
+              </li>
+              <li>Max. rychlost: 220–240+ km/h</li>
+              <li>
+                Alfa Romeo Giulia Quadrifoglio (výkonná verze): Motor: 2.9 V6
+                Bi-Turbo, vyvinutý s pomocí Ferrari
+              </li>
+              <li>Výkon: 510 koní</li>
+              <li>Zrychlení 0–100 km/h: 3.9 s</li>
+              <li>Max. rychlost: přes 300 km/h</li>
+              <li>Pohon: Zadní kola</li>
+              <li>Podvozek: Aktivní zavěšení Alfa Active Suspension</li>
+              </p>
+              <!-- paragraph about interesting facts -->
+              <p class="paragraph_2">
+              <ul>
+                <h1>Zajímavosti</h1>
+              </ul>
+              <li>
+                Verze Quadrifoglio má motor inspirovaný Ferrari, konkrétně 2.9l
+                V6 BiTurbo, který má velmi podobnou konstrukci jako motory
+                Ferrari z modelů California T nebo 488 GTB.
+              </li>
+              <li>
+                Perfektní rozložení hmotnosti: Giulia má ideální rozložení váhy
+                50:50, což výrazně přispívá k vynikajícím jízdním vlastnostem.
+              </li>
+              <li>
+                Lehká konstrukce: Alfa použila u Giulie hliník a karbon (např.
+                na hnací kardanové hřídeli a střeše u Quadrifoglia), čímž se
+                snížila hmotnost a zlepšila ovladatelnost
+              </li>
+
+              <li>
+                Design a aerodynamika: Aktivní aerodynamické prvky jako Active
+                Aero Splitter (u Quadrifoglia) zvyšují přítlak ve vysokých
+                rychlostech.
+              </li>
+
+              <li>
+                Rekord na Nürburgringu: Giulia Quadrifoglio patřila mezi
+                nejrychlejší sedany na okruhu Nürburgring – čas 7:32 (2016), což
+                tehdy překonalo i BMW M4.
+              </li>
+
+              <li>
+                Italská elegance: Interiér Giulie je zaměřený na řidiče –
+                minimalistický, ale stylový, s voličem DNA jízdních režimů
+                (Dynamic, Natural, Advanced Efficiency / Race).
+              </li>
+            </p>
+            <!-- Video links -->
+            <p class="paragraph_3"><h1>Video z Nürburgringu</h1>
+        
+            <iframe class="video" width="560" height="315" 
+                    src="https://www.youtube.com/embed/5gEdJmIVqLY"
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+            </iframe>
+          </p>
+          <p class="paragraph_4">
+            <h1>Recenze</h1>
+            <iframe class="video" width="560" height="315" 
+                    src="https://www.youtube.com/embed/iIyi-10dTfo"
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+            </iframe>
+          </p>
+          </div>
+        </div>
+        </div>
+      </section>
+      <!-- input of passwords -->
+      <section class="section_form_passwords">
+        <article>
+          <h2>Zadej heslo pro porovnání:</h2>
+        </article>
+        <!-- form for passwords -->
+        <form id="form" class="valid">
+          <div class="input-box_1">
+            <input
+              type="text"
+              class="password_1"
+              placeholder="Zadejte heslo."
+            />
+          </div>
+          <div class="input-box_2">
+            <input
+              type="text"
+              class="password_2"
+              placeholder="Zadejte heslo podruhé."
+            />
+            <span class="text"></span>
+          </div>
+        </form>
+      </section>
+      <!-- button for scrolling to top -->
+      <button id="scrollToTopBtn">Top</button>
+    </main>
+    <script src="script.js"></script>
+    <footer></footer>
+  </body>
+</html>

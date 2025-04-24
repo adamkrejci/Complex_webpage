@@ -17,7 +17,7 @@ header {
   width: 200px;
   margin-left: 20px;
 }
-/* Navigace */
+/* Navigation */
 nav {
   margin-right: 30px;
 }
@@ -132,7 +132,7 @@ header {
   color: black;
   font-style: 18px;
 }
-/* Přidání ikonek do stránky */
+/* Icons for passwords */
 #form.invalid .input-box_1:before {
   content: "";
   position: absolute;
@@ -195,6 +195,7 @@ header {
     display: block !important;
   }
 }
+/* Scroll button */
 #scrollToTopBtn {
   position: fixed;
   bottom: 20px;
@@ -212,7 +213,7 @@ header {
 #scrollToTopBtn:hover {
   background-color: #0056b3;
 }
-
+/* Dark/light mode */
 .body-light {
   background-color: white;
   color: black;
@@ -225,40 +226,41 @@ header {
   transition: background-color 0.3s, color 0.3s;
 }
 
-.header-light {
+.body-light header {
   background-color: #87ceeb;
   color: black;
   transition: background-color 0.3s, color 0.3s;
 }
 
-.header-dark {
+.body-dark header {
   background-color: #3a3a8b;
   color: white;
   transition: background-color 0.3s, color 0.3s;
 }
+.body-dark header nav ul li a {
+  color: white;
+  transition: color 0.3s;
+}
+.body-light header nav ul li a {
+  color: black;
+  transition: color 0.3s;
+}
+.body-dark header nav {
+  background-color: #3a3a8b;
+  transition: background-color 0.3s;
+}
+.body-light header nav {
+  background-color: #87ceeb;
+  transition: background-color 0.3s;
+}
+/* page content */
 button {
   margin: 10px;
   padding: 10px 20px;
   font-size: 16px;
 }
-.link-dark {
-  color: white;
-  transition: color 0.3s;
-}
-.link-light {
-  color: black;
-  transition: color 0.3s;
-}
-.header_nav-dark {
-  background-color: #3a3a8b;
-  transition: background-color 0.3s;
-}
-.header_nav-light {
-  background-color: #87ceeb;
-  transition: background-color 0.3s;
-}
 .text_content {
-  margin: auto;
+  text-align: center;
 }
 .paragraph_1 {
   padding-top: 60px;
